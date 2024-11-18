@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hotel Website</title>
+  <link rel="stylesheet" type="text/css" href="header.css">
+  <link rel="stylesheet" type="text/css" href="footer.css">
+  <style>
+    /* Styles from previous code */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #333;
+      text-decoration: none;
+      padding: 5px;
+    }
+
+    section {
+      padding: 20px;
+      margin: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Additional styles for hotel places view */
+    .places-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .place-card {
+      width: 300px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .place-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .place-info {
+      padding: 10px;
+    }
+
+    .place-name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .place-description {
+      margin-bottom: 10px;
+    }
+
+    .place-price {
+      font-weight: bold;
+    }
+    .btn 
+	{
+		width: 50%;
+		height: 35px;
+		background: #1887e7;
+		border: none;
+		outline:none;
+		border-radius: 4px;
+		cursor: pointer;
+		font-size: 16px;
+		color: #e4e4e4;
+		font-weight: 500;
+		box-shadow: 0 0 10px rgb(0, 0, 5);
+		margin-left: 60px;
+	}
+  </style>
+</head>
+<body>
+
+<header>
+        <div class="logo">
+          <img src="photo1686316618.jpeg">
+        </div>
+        <nav>
+          <ul>
+          
+            <li><a href="index.html">Home</a></li>
+			<li><a href="About Us.html">About</a></li>
+			<li><a href="Contact Us.html">Contact Us</a></li>
+			<li><a href="Feedback.html">Feedback</a></li>
+            
+          </ul>
+        </nav>
+        <div class="login">
+          <a href="Siun in.html">
+		<button>Login/Register</button>
+        </div>
+    </header>
+  <!-- Existing code -->
+
+  <section>
+    <h2>Matara,Sri Lanka</h2>
+    <div class="places-container">
+      <div class="place-card">
+        <img src="turtle.jpg" alt="Turtle Eco Beach" class="place-image">
+        <div class="place-info">
+          <h3 class="place-name">Turtle Eco Beach</h3>
+          <p class="place-description">  Beach Road, Batala Watta, Madiha, 81000 Matara, Sri Lanka – Excellent location - show map
+
+          </p>
+          <p class="place-price">$180 per night</p>
+          <button type="submit" class="btn">Book Now</button>
+          <div class="login-register">
+            <a href="booking.html" ></a>
+        </div>
+        </div>
+      </div>
+
+      <div class="place-card">
+        <img src="culture.jpg" alt="Culture Resort" class="place-image">
+        <div class="place-info">
+          <h3 class="place-name">Culture Resort</h3>
+          <p class="place-description">  24 Beach Road, Polhena Matara Sri Lanka, 81000 Matara, Sri Lanka – Excellent location - show map
+
+          </p>
+          <p class="place-price">$250 per night</p>
+          <button type="submit" class="btn">Book Now</button>
+          <div class="login-register">
+            <a href="booking.html" ></a>
+        </div>
+        </div>
+      </div>
+
+      <div class="place-card">
+        <img src="beach.jpg" alt="Beach Inns Holiday Resort" class="place-image">
+        <div class="place-info">
+          <h3 class="place-name">Beach Inns Holiday Resort</h3>
+          <p class="place-description"> Beach road, Madiha, Matara, 81000 Matara, Sri Lanka – Excellent location - show map
+
+          </p>
+          <p class="place-price">$150 per night</p>
+          <button type="submit" class="btn"> <a href="booking.html">Book Now</button>
+          <div class="login-register">
+            <a href="booking.html" ></a>
+        </div>
+        </div>
+      </div>
+
+      <div class="place-card">
+        <img src="top.jpg" alt="Top Secret Beach Hotel" class="place-image">
+        <div class="place-info">
+          <h3 class="place-name">Top Secret Beach Hotel</h3>
+          <p class="place-description"> Araliya Beach Road Maddawatta, 81000 Matara, Sri Lanka – Excellent location - show map
+
+          </p>
+          <p class="place-price">$130 per night</p>
+          <button type="submit" class="btn">Book Now</button>
+          <div class="login-register">
+            <a href="booking.html" ></a>
+        </div>
+        </div>
+      </div>
+
+      <div class="place-card">
+        <img src="nil.jpg" alt="Nil Diya Beach Resort" class="place-image">
+        <div class="place-info">
+          <h3 class="place-name">Nil Diya Beach Resort</h3>
+          <p class="place-description"> 65 Sri Sudharshanarama Polhena, Madiha,, 81000 Matara, Sri Lanka – Great location - show map
+
+          </p>
+          <p class="place-price">$140 per night</p>
+          <button type="submit" class="btn"> <a href="booking.html">Book Now</button>
+          <div class="login-register">
+            <a href="booking.html" ></a>
+        </div>
+        </div>
+      </div>
+
+      <div class="place-card">
+        <img src="bienvenido.jpg" alt="Bienvenido Madiha" class="place-image">
+        <div class="place-info">
+          <h3 class="place-name">Bienvenido Madiha</h3>
+          <p class="place-description"> Randuma villas Madiha, Matara, 81000 Matara, Sri Lanka – Excellent location - show map
+
+
+          </p>
+          <p class="place-price">$150 per night</p>
+          <button type="submit" class="btn"> <a href="booking.html">Book Now</button>
+          <div class="login-register">
+            <a href="booking.html" ></a>
+        </div>
+        </div>
+      </div>
+
+      <!-- Add more place cards here -->
+
+    </div>
+  </section>
+
+  <!-- Existing code -->
+
+</body>
+</html>

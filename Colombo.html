@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hotel Website</title>
+  <link rel="stylesheet" type="text/css" href="header.css">
+  <link rel="stylesheet" type="text/css" href="footer.css">
+  <style>
+    /* Styles from previous code */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #333;
+      text-decoration: none;
+      padding: 5px;
+    }
+
+    section {
+      padding: 20px;
+      margin: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Additional styles for hotel places view */
+    .places-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .place-card {
+      width: 300px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .place-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .place-info {
+      padding: 10px;
+    }
+
+    .place-name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .place-description {
+      margin-bottom: 10px;
+    }
+
+    .place-price {
+      font-weight: bold;
+    }
+    .btn 
+	{
+		width: 50%;
+		height: 35px;
+		background: #1887e7;
+		border: none;
+		outline:none;
+		border-radius: 4px;
+		cursor: pointer;
+		font-size: 16px;
+		color: #e4e4e4;
+		font-weight: 500;
+		box-shadow: 0 0 10px rgb(0, 0, 5);
+		margin-left: 60px;
+	}
+  </style>
+</head>
+<body>
+
+<header>
+        <div class="logo">
+          <img src="photo1686316618.jpeg">
+        </div>
+        <nav>
+          <ul>
+          
+            <li><a href="index.html">Home</a></li>
+			<li><a href="About Us.html">About</a></li>
+			<li><a href="Contact Us.html">Contact Us</a></li>
+			<li><a href="Feedback.html">Feedback</a></li>
+            
+          </ul>
+        </nav>
+        <div class="login">
+          <a href="Siun in.html">
+		<button>Login/Register</a></button>
+        </div>
+    </header>
+  <!-- Existing code -->
+
+  <section>
+    <h2>Colombo,Sri Lanka</h2>
+    <div class="places-container">
+      <div class="place-card">
+        <img src="cinnamon-grand1.jpg" alt="cinnamon-grand" class="place-image">
+        <div class="place-info">
+          <h3 class="place-name">The Tea Garden</h3>
+          <p class="place-description">77 Galle Road, Colombo 00300 Sri Lanka</p>
+          <p class="place-price">$180 per night</p>
+          <button type="submit" class="btn"> <a href="booking.html">Book Now</button>
+          <div class="login-register">
+            <a href="booking.html" ></a>
+        </div>
+        </div>
+      </div>
+
+      <div class="place-card">
+        <img src="cinnamon-lakeside1.jpg" alt="cinnamon-lakeside" class="place-image">
+        <div class="place-info">
+          <h3 class="place-name">cinnamon-lakeside</h3>
+          <p class="place-description">4 Moor's Road 14/4/1, Wellawatte, 00600 Colombo, Sri Lanka</p>
+          <p class="place-price">$250 per night</p>
+          <button type="submit" class="btn"> <a href="booking.html">Book Now</button>
+          <div class="login-register">
+            <a href="booking.html" ></a>
+        </div>
+        </div>
+      </div>
+
+      <div class="place-card">
+        <img src="cinnamon-grand6.jpg" alt="Unique Towers Luxury Boutique Suites" class="place-image">
+        <div class="place-info">
+          <h3 class="place-name">Unique Towers Luxury Boutique Suites</h3>
+          <p class="place-description"> No 30, Hyde Park Corner, 00200 Colombo, Sri Lanka – Excellent location - show map
+
+          </p>
+          <p class="place-price">$150 per night</p>
+          <button type="submit" class="btn"> <a href="booking.html">Book Now</button>
+          <div class="login-register">
+            <a href="booking.html" ></a>
+        </div>
+        </div>
+      </div>
+
+      <div class="place-card">
+        <img src="Fairway.jpg" alt="Fairway Colombo" class="place-image">
+        <div class="place-info">
+          <h3 class="place-name">Fairway Colombo</h3>
+          <p class="place-description"> No. 45, Janadhipathi Mawatha, Colombo 01, Fort, 00100 Colombo, Sri Lanka – Excellent location - show map
+
+          </p>
+          <p class="place-price">$130 per night</p>
+          <<button type="submit" class="btn"> <a href="booking.html">Book Now</button>
+          <div class="login-register">
+            <a href="booking.html" ></a>
+        </div>
+        </div>
+      </div>
+
+      <div class="place-card">
+        <img src="zest.jpg" alt="Zest Metropole" class="place-image">
+        <div class="place-info">
+          <h3 class="place-name">Zest Metropole</h3>
+          <p class="place-description">43 Hospital Street, Fort, 00100 Colombo, Sri Lanka</p>
+          <p class="place-price">$140 per night</p>
+          <button type="submit" class="btn"> <a href="booking.html">Book Now</button>
+          <div class="login-register">
+            <a href="booking.html" ></a>
+        </div>
+        </div>
+      </div>
+
+      <div class="place-card">
+        <img src="port.jpg" alt="Port View City Hotel" class="place-image">
+        <div class="place-info">
+          <h3 class="place-name">Port View City Hotel</h3>
+          <p class="place-description"> 282/5, Kollupitiya Road, Kollupitiya, 00300 Colombo, Sri Lanka – Excellent location - show map
+
+          </p>
+          <p class="place-price">$150 per night</p>
+          <button type="submit" class="btn"> <a href="booking.html">Book Now</button>
+          <div class="login-register">
+            <a href="booking.html" ></a>
+        </div>
+        </div>
+      </div>
+
+      <!-- Add more place cards here -->
+
+    </div>
+  </section>
+
+  <!-- Existing code -->
+
+</body>
+</html>

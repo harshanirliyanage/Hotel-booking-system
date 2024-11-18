@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    
+   
+ 
+    background-image: url(pay7.jpg);
+    background-size: 100%;
+
+
+   
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav a:hover {
+    color: #b89146;
+  }
+  
+  .login button {
+    background-color: #b89146;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Roboto-Bold', Arial, sans-serif; /* Custom font */
+  }
+  
+  .login button:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+  
+  /* Media query for responsiveness */
+  @media only screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+    }
+    
+    .logo img {
+      height: 40px;
+    }
+    
+    nav ul {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 10px;
+    }
+    
+    nav li {
+      margin: 5px 0;
+    }
+    
+    nav a {
+      margin-right: 0;
+    }
+    
+    .login button {
+      padding: 8px 16px;
+    }
+  
+  }
+
+
+.container{
+    align-items: center;
+    width: 400px;
+    margin-left: 300px;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    border-radius:8px;
+    padding:40px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1),
+                0 5px 12px -2px rgba(0, 0, 0, 0.1),
+                0 18px 36px -6px rgba(0, 0, 0, 0.1);
+}  
+.container.title{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.container form input{
+    display: none;
+}
+
+.container form .category{
+    margin-top:10px;
+    padding-top: 20px;
+
+} .category label{
+    width: 100%px;
+    height: 65px;
+    padding: 20px;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+}label:nth-child(2),label:nth-child(3)
+{
+    margin:15px 0;
+}
+#VISA:checked ~ .category .VISAMethod,
+#MasterCard:checked ~ .category .MasterCardMethod,
+#Paypal:checked ~ .category .PaypalMethod,
+#AMEX:checked ~ .category .AMEXMethod{
+    box-shadow: 0px 0px 0px  1px rgba(16, 15, 16, 0.626);
+}
+#VISA:checked ~ .category .VISAMethod .check,
+#MasterCard:checked ~ .category .MastercardMethod .check,
+#Paypal:checked ~ .category .PaypalMethod .check,
+#AMEX:checked ~ .category .AMEXMethod .check{
+    display: block;
+}
+
+
+label.imgname{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.imgname span{
+
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+imgname.imgcontainer{
+    width: 50px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width:50px;
+   
+
+}
+.VISA img{
+    width: 60px;
+    margin-left: 3px;
+  
+
+}
+.MasterCard img{
+    width:60px;
+    height: 40px;
+    margin-left: 3px;
+}
+.Paypal img{
+    width:60px;
+    margin-left: 3px;
+}
+.AMEX img{
+    width:70px;
+    height: 40px;
+    margin-left: 3px;
+   
+}
+.check{
+    display: none;
+}
+.check i{
+    font-size: 18px;
+}

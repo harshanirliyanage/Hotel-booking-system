@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hotel Website</title>
+  <link rel="stylesheet" type="text/css" href="header.css">
+  <link rel="stylesheet" type="text/css" href="footer.css">
+  <style>
+    /* Styles from previous code */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #333;
+      text-decoration: none;
+      padding: 5px;
+    }
+
+    section {
+      padding: 20px;
+      margin: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Additional styles for hotel places view */
+    .places-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .place-card {
+      width: 300px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .place-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .place-info {
+      padding: 10px;
+    }
+
+    .place-name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .place-description {
+      margin-bottom: 10px;
+    }
+
+    .place-price {
+      font-weight: bold;
+    }
+    .btn 
+	{
+		width: 50%;
+		height: 35px;
+		background: #1887e7;
+		border: none;
+		outline:none;
+		border-radius: 4px;
+		cursor: pointer;
+		font-size: 16px;
+		color: #e4e4e4;
+		font-weight: 500;
+		box-shadow: 0 0 10px rgb(0, 0, 5);
+		margin-left: 60px;
+	}
+  </style>
+</head>
+<body>
+
+<header>
+        <div class="logo">
+          <img src="photo1686316618.jpeg">
+        </div>
+        <nav>
+          <ul>
+          
+            <li><a href="index.html">Home</a></li>
+			<li><a href="About Us.html">About</a></li>
+			<li><a href="Contact Us.html">Contact Us</a></li>
+			<li><a href="Feedback.html">Feedback</a></li>
+            
+          </ul>
+        </nav>
+        <div class="login">
+          <a href="Siun in.html">
+		<button>Login/Register</button>
+        </div>
+    </header>
+  <!-- Existing code -->
+
+  <section>
+    <h2>Kandy,Sri Lanka</h2>
+    <div class="places-container">
+      <div class="place-card">
+        <img src="earl.jpg" alt="Earl's Regent Hotel" class="place-image">
+        <div class="place-info">
+          <h3 class="place-name">Earl's Regent Hotel</h3>
+          <p class="place-description"> No. 40/1, Deveni Rajasinghe Mawatha, Peradeniya, Kandy, 20400 Kandy, Sri Lanka – Great location - show map    </p>
+          <p class="place-price">$180 per night</p>
+          <button type="submit" class="btn">Book Now</button>
+          <div class="login-register">
+            <a href="booking.html" ></a>
+        </div>
+        </div>
+      </div>
+
+      <div class="place-card">
+        <img src="lakewood.jpg" alt="Lakewood Residence" class="place-image">
+        <div class="place-info">
+          <h3 class="place-name">Lakewood Residence</h3>
+          <p class="place-description"> No  39/3 Rajapihilla Mawatha, 20000 Kandy, Sri Lanka – Excellent location - show map
+
+          </p>
+          <p class="place-price">$250 per night</p>
+          <button type="submit" class="btn">Book Now</button>
+          <div class="login-register">
+            <a href="booking.html" ></a>
+        </div>
+        </div>
+      </div>
+
+      <div class="place-card">
+        <img src="fox.jpg" alt="Fox Kandy by Fox Resorts" class="place-image">
+        <div class="place-info">
+          <h3 class="place-name">Fort WindShireFox Kandy by Fox Resorts</h3>
+          <p class="place-description">  125 Richmond Hill Heerasgala, 11111 Kandy, Sri Lanka – Great location - show map
+
+
+          </p>
+          <p class="place-price">$150 per night</p>
+          <button type="submit" class="btn">Book Now</button>
+          <div class="login-register">
+            <a href="booking.html" ></a>
+        </div>
+        </div>
+      </div>
+
+      <div class="place-card">
+        <img src="amaya.jpg" alt="Amaya Hills Kandy" class="place-image">
+        <div class="place-info">
+          <h3 class="place-name">Amaya Hills Kandy</h3>
+          <p class="place-description">  Heerassagala 20000 Kandy, 20000 Kandy, Sri Lanka – Excellent location - show map
+
+          </p>
+          <p class="place-price">$130 per night</p>
+          <button type="submit" class="btn">Book Now</button>
+          <div class="login-register">
+            <a href="booking.html" ></a>
+        </div>
+        </div>
+      </div>
+
+      <div class="place-card">
+        <img src="summit.jpg" alt="The Summit" class="place-image">
+        <div class="place-info">
+          <h3 class="place-name">The Summit</h3>
+          <p class="place-description">Thapodaramaya Road, 20000 Kandy, Sri Lanka – Excellent location - show map
+
+          </p>
+          <p class="place-price">$140 per night</p>
+          <button type="submit" class="btn">Book Now</button>
+          <div class="login-register">
+            <a href="booking.html" ></a>
+        </div>
+        </div>
+      </div>
+
+      <div class="place-card">
+        <img src="kandy.jpg" alt="Kandy Hills" class="place-image">
+        <div class="place-info">
+          <h3 class="place-name">Kandy Hills</h3>
+          <p class="place-description">  No 84 Rajapihilla Mawatha, 20000 Kandy, Sri Lanka – Great location - show map
+
+          </p>
+          <p class="place-price">$150 per night</p>
+          <button type="submit" class="btn">Book Now</button>
+          <div class="login-register">
+            <a href="booking.html" ></a>
+        </div>
+        </div>
+      </div>
+
+      <!-- Add more place cards here -->
+
+    </div>
+  </section>
+
+  <!-- Existing code -->
+
+</body>
+</html>

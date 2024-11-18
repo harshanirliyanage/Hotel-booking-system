@@ -1,0 +1,56 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items to the top */
+  margin: 20px 0;
+}
+
+.left-image,
+.right-image {
+  flex: 1;
+}
+
+.right-image {
+  margin-top: -20px; /* Adjust the negative margin as desired to move the image slightly above */
+}
+
+.paragraph {
+  flex: 2;
+  text-align: center;
+}
+
+.paragraph p {
+  font-size: 18px;
+}
+
+.contact-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('your-image-url.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add the following media query */
+@media (max-width: 768px) {
+  .contact-image {
+    background-size: contain;
+    background-position: top;
+  }
+}
+
+
+
+/* Place text in the middle of the image */
+.contact-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.contact-text h1 {
+  width: 700px; /* Adjust the value as needed */
+}

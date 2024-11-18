@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hotel Website</title>
+  <link rel="stylesheet" type="text/css" href="header.css">
+  <link rel="stylesheet" type="text/css" href="footer.css">
+  <style>
+    /* Styles from previous code */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #333;
+      text-decoration: none;
+      padding: 5px;
+    }
+
+    section {
+      padding: 20px;
+      margin: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Additional styles for hotel places view */
+    .places-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .place-card {
+      width: 300px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .place-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .place-info {
+      padding: 10px;
+    }
+
+    .place-name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .place-description {
+      margin-bottom: 10px;
+    }
+
+    .place-price {
+      font-weight: bold;
+    }
+    .btn 
+	{
+		width: 50%;
+		height: 35px;
+		background: #1887e7;
+		border: none;
+		outline:none;
+		border-radius: 4px;
+		cursor: pointer;
+		font-size: 16px;
+		color: #e4e4e4;
+		font-weight: 500;
+		box-shadow: 0 0 10px rgb(0, 0, 5);
+		margin-left: 60px;
+	}
+  </style>
+</head>
+<body>
+
+<header>
+        <div class="logo">
+          <img src="photo1686316618.jpeg">
+        </div>
+        <nav>
+          <ul>
+          
+            <li><a href="index.html">Home</a></li>
+			<li><a href="About Us.html">About</a></li>
+			<li><a href="Contact Us.html">Contact Us</a></li>
+			<li><a href="Feedback.html">Feedback</a></li>
+            
+          </ul>
+        </nav>
+        <div class="login">
+          <a href="Siun in.html">
+		<button>Login/Register</button>
+        </div>
+    </header>
+  <!-- Existing code -->
+
+  <section>
+    <h2>Galle,Sri Lanka</h2>
+    <div class="places-container">
+      <div class="place-card">
+        <img src="oynis.jpg" alt="Oynise Beach Cabin" class="place-image">
+        <div class="place-info">
+          <h3 class="place-name">Oynise Beach Cabin</h3>
+          <p class="place-description"> No.129,Bara Beach,Pitiwalla Boossa, 80270 Galle, Sri Lanka – Excellent location - show map
+
+          </p>
+          <p class="place-price">$180 per night</p>
+          <button type="submit" class="btn">Book Now</button>
+          <div class="login-register">
+            <a href="booking.html" ></a>
+        </div>
+        </div>
+      </div>
+
+      <div class="place-card">
+        <img src="Tharu.jpg" alt="Taru Villas Rampart Street - Galle Fort" class="place-image">
+        <div class="place-info">
+          <h3 class="place-name">Taru Villas Rampart Street - Galle Fort</h3>
+          <p class="place-description"> No.25 Rampart Street, Galle Fort, Galle, Sri Lanka., 80000 Galle, Sri Lanka – Excellent location - show map
+
+          </p>
+          <p class="place-price">$250 per night</p>
+          <button type="submit" class="btn"> <a href="booking.html">Book Now</button>
+          <div class="login-register">
+            <a href="booking.html" ></a>
+        </div>
+        </div>
+      </div>
+
+      <div class="place-card">
+        <img src="villa white.jpg" alt="Villa White Queen" class="place-image">
+        <div class="place-info">
+          <h3 class="place-name">Villa White Queen</h3>
+          <p class="place-description">  NO 27, Steel Road, Galle, SriLanka, 80000 Galle, Sri Lanka – Great location - show map
+
+
+
+          </p>
+          <p class="place-price">$150 per night</p>
+          <button type="submit" class="btn"> <a href="booking.html">Book Now</button>
+          <div class="login-register">
+            <a href="booking.html" ></a>
+        </div>
+        </div>
+      </div>
+
+      <div class="place-card">
+        <img src="villa.jpg" alt="Villa Taavetti" class="place-image">
+        <div class="place-info">
+          <h3 class="place-name">Villa Taavetti</h3>
+          <p class="place-description"> No.266/10 SEA BREEZE GARDENT MAHAMODARA, 80000 Galle, Sri Lanka – Excellent location - show map
+
+          </p>
+          <p class="place-price">$130 per night</p>
+          <button type="submit" class="btn"> <a href="booking.html">Book Now</button>
+          <div class="login-register">
+            <a href="booking.html" ></a>
+        </div>
+        </div>
+      </div>
+
+      <div class="place-card">
+        <img src="smile.jpg" alt="Smile Beach Home" class="place-image">
+        <div class="place-info">
+          <h3 class="place-name">Smile Beach Home</h3>
+          <p class="place-description"> NO 123, Pitiwella, Boossa, 80270 Galle, Sri Lanka – Excellent location - show map
+
+          </p>
+          <p class="place-price">$140 per night</p>
+          <button type="submit" class="btn"> <a href="booking.html">Book Now</button>
+          <div class="login-register">
+            <a href="booking.html" ></a>
+        </div>
+        </div>
+      </div>
+
+      <div class="place-card">
+        <img src="mabgo.jpg" alt="Mango House - Galle Fort" class="place-image">
+        <div class="place-info">
+          <h3 class="place-name">Mango House - Galle Fort</h3>
+          <p class="place-description">  No.03, Leyn Baan Cross Street, Fort, Galle, 80000 Galle, Sri Lanka – Excellent location - show map
+
+
+
+          </p>
+          <p class="place-price">$150 per night</p>
+          <button type="submit" class="btn"> <a href="booking.html">Book Now</button>
+          <div class="login-register">
+            <a href="booking.html" ></a>
+        </div>
+        </div>
+      </div>
+
+      <!-- Add more place cards here -->
+
+    </div>
+  </section>
+
+  <!-- Existing code -->
+
+</body>
+</html>
